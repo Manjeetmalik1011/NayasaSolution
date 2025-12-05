@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "Nayasasolution",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-FMlvyaqhWbSJbQMuB3p3ojzp6tM8Jk8Yqt8ds1VCKuo=",
+    "hash": "sha256-y6Ee+ypUngMuNC2WLrWdflzqKlqQsn0L1B+M8/Zn/IU=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.xanz2e7ksm.js"
@@ -1039,15 +1039,15 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Nayasasolution.wasm",
-        "name": "Nayasasolution.jyvc7z44t3.wasm",
-        "integrity": "sha256-NcCQMCvODPnl/Nnh/1rc1YQYW4a7bECOl9dsMjqMY3U="
+        "name": "Nayasasolution.g1m1g666qm.wasm",
+        "integrity": "sha256-1O3sXR1/EUcpZjRE4RSmMPLWo+TV+2dYrjqlCgA8eSA="
       }
     ],
     "pdb": [
       {
         "virtualPath": "Nayasasolution.pdb",
-        "name": "Nayasasolution.lvccnh4anx.pdb",
-        "integrity": "sha256-MeeQeTjFMEkOux+iTGYOVcKisJIHhd+RBrHTpM6vGls="
+        "name": "Nayasasolution.i6f993iym9.pdb",
+        "integrity": "sha256-Gup6DZDjI6JC7qL6h8cyqAZV9hN0DafFX/F1umuucxs="
       }
     ],
     "libraryInitializers": [

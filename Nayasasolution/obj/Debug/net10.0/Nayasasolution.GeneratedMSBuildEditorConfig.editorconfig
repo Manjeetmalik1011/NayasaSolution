@@ -32,30 +32,70 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Components/BlogPreview.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9CbG9nUHJldmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Components/Counters.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db3VudGVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Components/HeroSlider.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9IZXJvU2xpZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Components/Partners.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYXJ0bmVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Components/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZXJ2aWNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Components/Testimonials.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UZXN0aW1vbmlhbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Components/WhyUs.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9XaHlVcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90Rm91bmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Pages/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VydmljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Zvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Shared/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0hlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Shared/Preloader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1ByZWxvYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-6xe6gbbuh9
-
-[/Users/manjeetsingh/Projects/NayasaSolution/Nayasasolution/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-1vthj28ruh
