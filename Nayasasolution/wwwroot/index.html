@@ -39,6 +39,719 @@
     <link rel="stylesheet" href="css/woocommerce.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+      body {
+        font-family: Karla, sans-serif;
+      }
+      body{
+        font-size: 16px;
+        line-height: 26px;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: Montserrat, sans-serif;
+      }
+      .header3 .logo,
+      .header-style-two .logo,
+      .default-header .logo {
+        padding-top: 5px;
+        max-width: 200px;
+        padding-bottom: 5px;
+      }
+    </style><style>
+				/* = Header 1 Top Color = */
+
+				@media (max-width: 767px) {
+					.header3-top-left-area,
+					.header-style-two .header2-top-left-area,
+					.default-header-top-left {
+					    display: inline-block;
+					}
+					.header-top-right .header-top-link,
+					.header-style-two .header2-top-right .header-top-link,
+					.default-header-top-right .header-top-link {
+					    display: inline-block;
+					}
+					.header-top-right .header-social,
+					.header-style-two .header2-top-right .header-social,
+					.default-header-top-right .header-social {
+					    display: inline-block;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-language,
+					.header2-menu-area .header2-trackorder-area .header-language,
+					.header3-menu-area .header3-trackorder-area .header-language {
+					    display: inline-block;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-btn,
+					.header2-menu-area .header2-trackorder-area .header-btn,
+					.header3-menu-area .header3-trackorder-area .header-btn {
+					    display: inline-block;
+					}
+				}
+
+				@media (max-width: 480px) {
+					.header3-top-left-area,
+					.header-style-two .header2-top-left-area,
+					.default-header-top-left {
+					    display: inline-block;
+					}
+					.header-top-right .header-top-link,
+					.header-style-two .header2-top-right .header-top-link,
+					.default-header-top-right .header-top-link {
+					    display: inline-block;
+					}
+					.header-top-right .header-social,
+					.header-style-two .header2-top-right .header-social,
+					.default-header-top-right .header-social {
+					    display: inline-block;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-language,
+					.header2-menu-area .header2-trackorder-area .header-language,
+					.header3-menu-area .header3-trackorder-area .header-language {
+					    display: none;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-btn,
+					.header2-menu-area .header2-trackorder-area .header-btn,
+					.header3-menu-area .header3-trackorder-area .header-btn {
+					    display: none;
+					}
+				}
+
+				@media (max-width: 320px) {
+					.header3-top-left-area,
+					.header-style-two .header2-top-left-area,
+					.default-header-top-left {
+					    display: inline-block;
+					}
+					.header-top-right .header-top-link,
+					.header-style-two .header2-top-right .header-top-link,
+					.default-header-top-right .header-top-link {
+					    display: inline-block;
+					}
+					.header-top-right .header-social,
+					.header-style-two .header2-top-right .header-social,
+					.default-header-top-right .header-social {
+					    display: inline-block;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-language,
+					.header2-menu-area .header2-trackorder-area .header-language,
+					.header3-menu-area .header3-trackorder-area .header-language {
+					    display: none;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-btn,
+					.header2-menu-area .header2-trackorder-area .header-btn,
+					.header3-menu-area .header3-trackorder-area .header-btn {
+					    display: none;
+					}
+				}
+
+				@media (max-width: 375px) {
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-language,
+					.header2-menu-area .header2-trackorder-area .header-language,
+					.header3-menu-area .header3-trackorder-area .header-language {
+					    display: none;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-btn,
+					.header2-menu-area .header2-trackorder-area .header-btn,
+					.header3-menu-area .header3-trackorder-area .header-btn {
+					    display: none;
+					}
+				}
+
+				@media (max-width: 425px) {
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-language,
+					.header2-menu-area .header2-trackorder-area .header-language,
+					.header3-menu-area .header3-trackorder-area .header-language {
+					    display: none;
+					}
+					.transparent-header.default-header .header1default-menu-area .header1default-trackorder-area .header-btn,
+					.header2-menu-area .header2-trackorder-area .header-btn,
+					.header3-menu-area .header3-trackorder-area .header-btn {
+					    display: none;
+					}
+				}
+		    </style><style>
+				/* = Breadcrumb Color = */
+				.breadcrumb-content {
+		        padding-top: 260px;
+		        margin-bottom: 115px;
+		      }
+				.breadcrumb-area.breadcrumb_height .breadcrumb-item + .breadcrumb-item::before,
+				.breadcrumb-area.breadcrumb_height .breadcrumb-wrap h2,
+				.breadcrumb-area.breadcrumb_height .breadcrumb li a, 
+				.breadcrumb-area.breadcrumb_height .breadcrumb li,
+				.breadcrumb-item + .breadcrumb-item::before {
+					color: #fff;
+				}
+				.image-overlay:before {
+					opacity: 0.8;
+					background-color: #000e30;
+				}
+				.breadcrumb li a:hover {
+					color: #ff5e14 !important;
+				}
+				.breadcrumb-content h2 {
+					font-size: 42px;
+					font-weight: 700;
+					text-transform: capitalize;
+				}
+				.breadcrumb-area .breadcrumb-content h2,
+				.breadcrumb-area .breadcrumb-content nav{
+					;
+				}
+				@media (max-width: 767px) {
+					.breadcrumb-content {
+					    padding-top: 205px;
+					    margin-bottom: 115px;
+					}
+					.breadcrumb-content h2 {
+						font-size: 35px;
+					}
+				}
+		    </style><style>
+				/* = Theme Base Color = */
+				footer .widget_nav_menu ul li:hover> a,
+				.bpost-meta a:hover,
+				.bpost-meta ul li i,
+				p.logged-in-as a,
+				.b-readmore a,
+				.b-details-content .the-content a,
+				blockquote a, code,
+				.rc-post-content h5 a:hover,
+				.team-overlay-content h4 a:hover,
+				.history-list-content span,
+				.b-about-social a,
+				.c-form-group i,
+				.f-group i,
+				p.logged-in-as a {
+					color: #ff5e14;
+				}
+				sup.meta-featured-post,
+				.widget .widget-title span::before,
+				.widget .widget-title span,
+				.widget_search .ws-input button,
+				section.no-results.not-found .search-none-search-bar .ws-input button,
+				.bpost-content .wp-block-quote cite::before,
+				section.error-area.error-bg .error-content a.btn.orange-btn,
+				.bpost-content .b-tag a,
+				.comment-form button,
+				span.designation:before,
+				.team-details-social ul li a,
+				.history-list-content span::before,
+				.single-history-wrap::after,
+				.wp-block-button .wp-block-button__link:not(.has-background),
+				.d-post-tag ul li a:hover {
+					background-color: #ff5e14;
+				}
+				.comment-text .avatar-name span,
+				.single-comment a,
+				.team-details-content span,
+				.team-details-content .info-list ul li i.fa,
+				dd a,
+				footer.entry-footer span.screen-reader-text, footer.entry-footer a.post-edit-link, .page .bdetails-content ol li a,
+				.bpost-navigation .prev-link a:hover h4, .bpost-navigation .next-link a:hover h4 {
+					color: #ff5e14;
+				}
+
+				.slider-btn a.btn.red-btn {
+					background: #d00c27 !important;
+					color: #fff !important;
+				}
+				.slider-btn a.btn.red-btn:hover {
+					background: #cee2ff !important;
+					color: #001d67 !important;
+				}
+				.slider-btn a.btn.gray-btn {
+					background: #cee2ff !important;
+					color: #001d67 !important;
+				}
+				.slider-btn a.btn.gray-btn:hover {
+					background: #d00c27 !important;
+					color: #fff !important;
+				}
+
+				p button.btn {
+					background: #34ccff;
+					color: #fff;
+				}
+				p button.btn i{
+					color: #fff;
+				}
+				p button.btn:hover {
+					background: #34ccff;
+					color: #fff;
+				}
+				p button.btn:hover i{
+					color: #fff;
+				}
+				.bpost-content h2.post-title {
+					color: #001d67;
+				}
+				.team-active .slick-arrow:hover,
+				.pagination li.page-item.active a.page-link,
+				.comment-text .avatar-name .comment-reply-link:hover {
+					background-color: #ff5e14;
+					border-color: #ff5e14;
+				}
+				.pagination li.page-item:hover a.page-link{
+					background-color: #ff5e14;
+					border-color: #ff5e14;
+				}
+				aside.blog-sidebar.sidebar-default .widget.widget_block h2,
+				aside.blog-sidebar.sidebar-default .widget.widget_block.widget_search .wp-block-search__label,
+				.blog-sidebar.sidebar-default .widget .widget-title h4 {
+					color: #001d67;
+				}
+				.blog-sidebar.sidebar-default .widget ul li a {
+					color: #001d67;
+				}
+				.blog-sidebar.sidebar-default .sidebar-social a:hover,
+				.blog-sidebar.sidebar-default .widget_tag_cloud a:hover {
+					background-color: #ff5e14;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf::before{
+					background-color:#ff8400;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf .service-widget-title h2{
+					color:#ffffff;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf .service-widget-title span{
+					color:#ffffff;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf ul li a{
+					background-color:#f3f9ff;
+					color:#001d67;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf ul li a i{
+					color:#ff8400;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf ul li a i:last-child{
+					color:#c4cde3;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf ul li a:hover{
+					background-color:#001d67;
+					color:#fff;
+				}
+				.services-sidebar .geoport_download_widget .services-pdf ul li a:hover i{
+					color:#fff;
+				}
+				.services-sidebar .sidebar-quote.blue-bg {
+					background-color:#001d67;
+				}
+				.services-sidebar .sidebar-quote h2 {
+					color:#ffffff;
+				}
+				.services-sidebar .sidebar-quote.blue-bg P,
+				.services-sidebar .sidebar-quote.blue-bg span {
+					color:#a8b6d9;
+				}
+				.services-sidebar a.btn.yellow-btn{
+					background:#ff8400;
+					color:#ffffff;
+				}
+				.services-sidebar a.btn.yellow-btn:hover{
+					background:#ff8400;
+					color:#ffffff;
+				}
+				section.related.products {
+				    display: block;
+				}
+				.woocommerce span.onsale, .woocommerce ul.products li.product .onsale {
+					background: #ff5e14;
+				}
+				.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+				.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+					background: #ff5e14;
+					color: #ffffff;
+				}
+				.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover{
+					background: #ff5e14 !important;
+					color: #ffffff !important;
+				}
+				.woocommerce-info, .woocommerce-message {
+					border-color: #ff5e14;
+				}
+				.woocommerce .cart_item td a,
+				.woocommerce .cart_item a.remove{
+					color: #ff5e14 !important;
+				}
+				a.about_paypal, p.lost_password a, span.posted_in a, .woocommerce-privacy-policy-text a, .woocommerce-info a, .woocommerce-message a, .woocommerce-info::before, .woocommerce-message::before,
+				.woocommerce-tabs.wc-tabs-wrapper .comment-form-rating p.stars span a {
+					color: #ff5e14;
+				}
+				.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+					border-color: #ff5e14;
+				}
+				.woocommerce nav.woocommerce-pagination ul li a, 
+				.woocommerce nav.woocommerce-pagination ul li span {
+					background: #fdf5f5;
+					color: #001d67 !important;
+				}
+				.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current {
+					background: #ff5e14;
+					color: #ffffff !important;
+				}
+				.woocommerce nav.woocommerce-pagination ul li span.current {
+					background: #ff5e14;
+					color: #ffffff !important;
+				}
+				.ws-input input:focus {
+					outline-color: #ff5e14;
+				}
+				.ws-input input:focus {
+					border-color: #ff5e14;
+				}
+				.widget_recent_entries ul li a:hover,
+				.bpost-meta ul li a:hover,
+				.widget_recent_comments ul li:hover::before, 
+				.widget_recent_entries ul li:hover::before, 
+				.widget_categories ul li:hover::before, 
+				.widget_nav_menu ul li:hover::before, 
+				.widget_archive ul li:hover::before, 
+				.widget_pages ul li:hover::before, 
+				.widget_meta ul li:hover::before,
+				.widget_categories ul li a:hover,
+				.blog-sidebar .widget ul li a:hover,
+				.widget_archive ul li a:hover,
+				.bavatar-info p a:hover,
+				.bpost-content h2 a:hover,
+				.team-details-content .info-list ul li a:hover{
+					color: #ff5e14;
+				}
+		    </style><style>
+				/* = Preloader Color = */
+				.ctn-preloader .animation-preloader .spinner {
+					border-color: rgba(0, 0, 0, 0.2);
+					border-top-color: #ff5e14;
+				}
+				.ctn-preloader .loader .loader-section .bg {
+		        	background-color: #ffffff;
+		      	}
+		      	.ctn-preloader .animation-preloader .txt-loading .letters-loading {
+		      		color: rgba(0, 0, 0, 0.2);
+		      	}
+		      	.ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
+		        	color: #000000;
+		      	}
+		    </style><style>
+				#scroller {
+			        color: #ffffff;
+			        background-color: #ff5e14;
+			        border-radius: 50%;
+			    }
+		    </style><style>
+				/* = Footer Color = */
+				.footer-bg {
+			        color: #a7b6d3;
+			        background-color: #001447;
+			    }
+			    footer .geoport_rp_widget .widget-title h4,
+			    .footer-widget-title h4 {
+					color: #ffffff;
+					font-size: 24px;
+			    }
+			    footer .widget_nav_menu ul li:before,
+			    .footer-work-hour-content p span,
+			    footer .widget_nav_menu ul li a,
+			    .footer-work-hour-content p,
+			    .footer-work-hour-content a,
+			    .footer-work-hour ul li{
+			        color: #a7b6d3;
+			    }
+			    footer .widget_nav_menu ul li a:hover,
+			    .footer-work-hour-content a:hover{
+			        color: #ff5e14 !important;
+			    }
+
+			    .copyright-text {
+			    	background-color: #001d67;
+			    }
+			    .copyright-text p {
+			        color: #a7b6d3;
+			    }
+			    .copyright-text p a {
+			        color: #ff5e14;
+			    }
+			    .copyright-text p a:hover {
+			        color: #ff5e14;
+			    }
+
+			    /* = Footer Color = */
+			    footer .geoport_rp_widget.footer-widget .rc-post-content h5,
+			    .footer-text p {
+			    	color: #a7b6d3;
+			    }
+			    .footer-social ul li a {
+					color: #ffffff;
+					background-color: #1d2b5a;
+			    }
+			    .footer-social ul li a:hover {
+					color: #ffffff;
+					background-color: #34ccff;
+			    }
+
+			    /* = Footer 2 Color = */
+				.footer-bg2 {
+			        color: #a7b6d3;
+			        background-color: #001447;
+			    }
+			    .footer-bg2 .geoport_rp_widget .widget-title h4,
+			    .footer-bg2 .footer-widget-title h4 {
+					color: #ffffff;
+					font-size: 24px;
+			    }
+			    .footer-bg2 .widget_nav_menu ul li:before,
+			    .footer-bg2 .footer-work-hour-content p span,
+			    .footer-bg2 .widget_nav_menu ul li a,
+			    .footer-bg2 .footer-work-hour-content p,
+			    .footer-bg2 .footer-work-hour-content a,
+			    .footer-bg2 .footer-work-hour ul li,
+			    .footer-bg2 .footer-text p {
+			        color: #a7b6d3;
+			    }
+			    .footer-bg2 .widget_nav_menu ul li:hover:before,
+			    .footer-bg2 .footer-work-hour-content a:hover,
+			    .footer-bg2 .widget_nav_menu ul li a:hover {
+			        color: ;
+			    }
+
+			    /* = Content Color = */
+			    .footer-bg2 .footer-social ul li a {
+					color: #ffffff;
+					background-color: #1d2b5a;
+			    }
+			    .footer-bg2 .footer-social ul li a:hover {
+					color: #ffffff;
+					background-color: #34ccff;
+			    }
+		    </style>        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/favicon.png">
+        	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.32.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+					<style id="geoport-custom-header-styles">
+							a.default-logo,
+				.site-description {
+					position: relative;
+					clip: rect(1px, 1px, 1px, 1px);
+				}
+					</style>
+				<style id="wp-custom-css">
+			body.archive.post-type-archive.post-type-archive-service .bpost-content .b-tag {
+    display: none;
+}		</style>
+				<style>
+      .transparent-header.header-style-two{
+        background: transparent;
+      }
+      .main-menu ul li > a{
+        text-transform: capitalize;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .main-menu ul li:hover a,
+      .main-menu ul li > a:hover{
+        color: #ff5e14;
+      }
+      .menu-area ul li > .submenu li.current-menu-item>a,
+      .menu-area ul li.current-menu-ancestor>a,
+      .menu-area ul li.current-menu-item>a,
+      .menu-area ul li.current-menu-item>a,
+      .menu-area > nav > ul > li:hover > a,
+      .menu-area ul li.active>a{
+        color: #ff5e14;
+      }
+      .main-menu ul li > .submenu{
+        background-color: #ffffff;
+      }
+      .main-menu ul li > .submenu li a{
+        color: #568ea5;
+        text-transform: capitalize;
+      }
+      .main-menu ul li .submenu > li:hover > a{
+        color: #ff5e14;
+      }
+      .main-menu ul ul a:hover,
+      .main-menu ul ul ul a:hover{
+        background-color: #ffffff;
+      }
+      .transparent-header.header-style-two.sticky-header,
+      .sticky-header{
+        background-color: #ffffff;
+      }
+      .sticky-header .main-menu ul li > a{
+        color: #568ea5;
+      }
+      .sticky-header .main-menu ul li:hover a,
+      .sticky-header .main-menu ul li > a:hover{
+        color: #ff5e14;
+      }
+      .sticky-header .menu-area ul li > .submenu li.current-menu-item>a,
+      .sticky-header .menu-area ul li.current-menu-ancestor>a,
+      .sticky-header .menu-area ul li.current-menu-item>a,
+      .sticky-header .menu-area ul li.current-menu-item>a,
+      .sticky-header .menu-area > nav > ul > li:hover > a,
+      .sticky-header .menu-area ul li.active>a,
+      .sticky-header.default-header .main-menu ul li.active > a,
+      .sticky-header.default-header .main-menu ul li:hover > a,
+      .sticky-header.header-style-two .main-menu ul li.active > a,
+      .sticky-header.header-style-two .main-menu ul li:hover > a{
+        color: #ff5e14;
+      }
+      .sticky-header .main-menu ul li > .submenu{
+        background-color: #ffffff;
+      }
+      .sticky-header .main-menu ul li > .submenu li a{
+        color: #568ea5;
+      }
+      .sticky-header .main-menu ul li .submenu > li:hover > a{
+        color: #ff5e14;
+      }
+      .sticky-header .main-menu ul ul a:hover,
+      .sticky-header .main-menu ul ul ul a:hover{
+        background-color: #ffffff;
+      }
+      .header-action .header-btn .btn.transparent-btn {
+        color: #ffffff;
+        background: transparent;
+        border-color: #d7edff;
+      }
+      .header-action .header-btn .btn.transparent-btn:hover {
+        color: #ffffff;
+        background: #ff5e14;
+        border-color: #ff5e14;
+        box-shadow: 0px 8px 16px 0px rgba(255, 94, 20, 0.4);
+      }
+      .sticky-header .header-action .header-btn .btn.transparent-btn{
+        color: #ffffff;
+        background-color: #ff5e14;
+        border: 2px solid #ff5e14;
+      }
+      .header-top-area {
+        background-color: transparent      }
+      .header-top-link ul li a,
+      .header-social a{
+        color: #ffffff !important;
+      }
+      .header-top-link ul li a:hover,
+      .header-social a:hover{
+        color: #34ccff !important;
+      }
+      .header-top-area {
+        border-bottom: 2px solid rgba(255,255,255,.2);
+      }
+      .mean-container a.meanmenu-reveal {
+        border: 1px solid #ffffff !important;
+        color: #ffffff !important;
+      }
+      .mean-container a.meanmenu-reveal span {
+        background: #ffffff !important;
+      }
+      .sticky-header .mean-container a.meanmenu-reveal {
+        border: 1px solid #001d67 !important;
+        color: #001d67 !important;
+      }
+      .sticky-header .mean-container a.meanmenu-reveal span {
+        background: #001d67 !important;
+      }
+      .mobile-menu.mean-container .mean-nav {
+        background-color: #001d67;
+      }
+      .mobile-menu.mean-container .mean-nav a{
+        color: #ffffff;
+      }
+      ul.lang-sub-menu li.current-lang {
+        background-color: #ded6d6;
+      }
+		</style>
+
+	  
+  										<style>
+					                    body .main-menu ul li > a{
+            color:#ffffff;
+          }
+                              body .main-menu ul li:hover> a,
+          body .main-menu ul li > a:hover{
+            color:#34ccff;
+          }
+                              body .menu-area ul li > .submenu li.current-menu-item>a,
+          body .menu-area ul li.current-menu-ancestor>a,
+          body .menu-area ul li.current-menu-item>a,
+          body .menu-area ul li.current-menu-item>a,
+          body .menu-area > nav > ul > li:hover > a,
+          body .menu-area ul li.active>a{
+            color: #34ccff;
+          }
+                              body .main-menu ul li .submenu > li:hover > a{
+            color: #34ccff;
+          }
+                              body .header-action .header-btn .btn.transparent-btn{
+            background-color:#34ccff;
+          }
+                              body .header-action .header-btn .btn.transparent-btn{
+            color:#ffffff;
+          }
+                              body .header-action .header-btn .btn.transparent-btn{
+            border-color:#34ccff;
+          }
+                              body .header-action .header-btn .btn.transparent-btn:hover{
+            background-color:#34ccff;
+          }
+                              body .header-action .header-btn .btn.transparent-btn:hover{
+            color:#ffffff;
+          }
+                              body .header-action .header-btn .btn.transparent-btn:hover{
+            border-color:#34ccff;
+          }
+                              body .header-action .header-btn .btn.transparent-btn:hover{
+            box-shadow: 0px 8px 16px 0px rgba(52,204,255,0.66);
+          }
+                              body .sticky-header .header-action .header-btn .btn.transparent-btn{
+            background-color:#34ccff;
+            border:2px solid #34ccff;
+          }
+                              body .sticky-header .header-action .header-btn .btn.transparent-btn{
+            color:#ffffff;
+          }
+                                        body .sticky-header .main-menu ul li > a{
+            color:#568ea5;
+          }
+                              body .sticky-header .main-menu ul li > .submenu li a{
+            color:#568ea5;
+          }
+                              body .sticky-header .main-menu ul li .submenu > li:hover > a{
+            color: #34ccff;
+          }
+                              body .sticky-header .main-menu ul li:hover a,
+          body .sticky-header .main-menu ul li > a:hover{
+            color:#34ccff;
+          }
+                              body .sticky-header .menu-area ul li > .submenu li.current-menu-item>a,
+          body .sticky-header .menu-area ul li.current-menu-ancestor>a,
+          body .sticky-header .menu-area ul li.current-menu-item>a,
+          body .sticky-header .menu-area ul li.current-menu-item>a,
+          body .sticky-header .menu-area > nav > ul > li:hover > a,
+          body .sticky-header .menu-area ul li.active>a{
+            color:#34ccff;
+          }
+    </style>
 </head>
 
 <body>
@@ -55,7 +768,39 @@
     <a href="." class="reload">Reload</a>
     <span class="dismiss">🗙</span>
 </div>
-<script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
+    <!-- JavaScript files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/jquery.blockUI.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery-numerator.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/js.cookie.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/range-slider.js"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/frontend-modules.min.js"></script>
+    <script src="js/frontend.min.js"></script>
+    <script src="js/hooks.min.js"></script>
+    <script src="js/geoport-elementor-editor.js"></script>
+    <script src="js/geoport-master.js"></script>
+    <script src="js/geoport-main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index_1.js"></script>
+    <script src="js/add-to-cart.min.js"></script>
+    <script src="js/order-attribution.min.js"></script>
+    <script src="js/woocommerce.min.js"></script>
+    <script src="js/sourcebuster.min.js"></script>
+    <script src="js/i18n.min.js"></script>
+    <script src="js/webpack.runtime.min.js"></script>
+    <script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
 </body>
 
 </html>
