@@ -1,13 +1,20 @@
 @inherits LayoutComponentBase
 
-<Shared.Preloader />
+<Preloader />
 
 <div class="page-container">
-    <Shared.Header />
+    <Header />
 
     <main>
         @Body
-    </main>
+    </main>         
 
-    <Shared.Footer />
+    <Footer />
 </div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        
+    }
+}
